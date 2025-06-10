@@ -1,4 +1,5 @@
 # Ponto de Coleta
+# Uma Realização: Adriana Ferreira; Brenda Mirelle; Fabricio Santana; Gabriel Barbosa; José de Jesus; Josué da Silva; Kezia Oliveira; Luyza da Cruz
 
 Este projeto é uma aplicação web desenvolvida para ajudar as pessoas a encontrarem pontos de coleta para o descarte correto de resíduos, como lixo eletrônico. A interface permite ao usuário inserir um endereço ou cidade e exibe os locais mais próximos usando a integração com mapas.
 
