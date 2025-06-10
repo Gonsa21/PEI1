@@ -1,35 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ponto de Coleta</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- importando CSS -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tailwind (opcional, pode remover se não usar utilitários) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- B. Leaflet com Openstreetmap -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>Lixo Eletrônico</title>
+    <link rel="shortcut icon" href="img/Recycl.png" type="image/x-icon">
 </head>
-<body>
-    <section class="secMaps">
 
-         <!-- Titulo da Seção -->
-        <Div class="titleMaps"><h1>PONTOS DE COLETA MAIS PRÓXIMOS</h1></Div>
+<body class="font-['Roboto',_sans-serif]">
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white d-flex align-items-center">
+        <div class="container py-5">
+            <div class="d-flex justify-content-between align-items-start mb-5">
+                <span class="fw-bold fs-5"><img class="w-35" src="img/EcoTech Recicla.png" alt=""></span>
+                <button class="btn btn-success m-2 border border-light "><a class="text-white link-underline-success" href="#contato">Encontre um ponto de coleta</a></button>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold display-5">DESCARTE DE LIXO<br>ELETÔNICO</h1>
+                <p class="lead mt-3 mb-4">Proteja o meio ambiente<br>Dê o destino certo aos seus eletrônicos</p>
+                <a href="#maps" class="btn btn-custom border border-light">Encontre um ponto de coleta</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-screen bg-[var(--secction_slid)] text-white flex items-center">
+        <div class="container position-relative">
+            <div id="carouselExample" class="carousel slide compact-carousel w-100" data-bs-interval="false"
+                data-bs-touch="true">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row justify-content-center align-items-center g-4">
+                                <div class="col-12 col-lg-6 carousel-content">
+                                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+                                        O QUE É LIXO ELETRÔNICO?
+                                    </h2>
+                                    <p class="text-base md:text-lg lg:text-xl leading-relaxed">
+                                        Lixo eletrônico é qualquer dispositivo eletrônico ou elétrico descartado; como
+                                        celulares, computadores, baterias e
+                                        eletrodomésticos. Esses itens contêm materiais que podem ser reciclados, mas
+                                        também
+                                        substâncias prejudiciais ao meio
+                                        ambiente se descartados de forma inadequada. O ideal é encaminhá-los para locais
+                                        de
+                                        coleta especializados para
+                                        reciclagem segura.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-lg-6 text-center">
+                                    <img src="img/descarte.svg" alt="Descarte eletrônico" class="img-fluid mx-auto"
+                                        style="max-height: 400px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row justify-content-center align-items-center g-4">
+                                <div class="col-12 col-lg-6 carousel-content">
+                                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+                                        IMPACTOS DO DESCARTE INCORRETO
+                                    </h2>
+                                    <p class="text-base md:text-lg lg:text-xl leading-relaxed">
+                                        O descarte inadequado de lixo eletrônico pode liberar substâncias tóxicas como
+                                        chumbo, mercúrio, cádmio e berílio no
+                                        solo e na água, contaminando ecossistemas e representando riscos à saúde humana.
+                                        Além disso, a queima desses materiais
+                                        libera gases poluentes na atmosfera. A falta de reciclagem também significa a
+                                        perda
+                                        de materiais valiosos que poderiam
+                                        ser reutilizados.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-lg-6 text-center">
+                                    <img src="img/descarte.svg" alt="Impactos do descarte" class="img-fluid mx-auto"
+                                        style="max-height: 400px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles personalizados -->
+                <button class="carousel-control-prev d-none d-lg-flex align-items-center justify-content-center"
+                    type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <img src="img/seta_esquerda.png" alt="Anterior" style="width:32px; height:32px;">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-lg-flex align-items-center justify-content-center"
+                    type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <img src="img/seta_direita.png" alt="Próximo" style="width:32px; height:32px;">
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--codigo do mapa-->
+    
+    <section id="maps" class="hero-section secMaps py-5">
+
+        <!-- Titulo da Seção -->
+        <Div class="titleMaps">
+            <h1>PONTOS DE COLETA MAIS PRÓXIMOS</h1>
+        </Div>
 
         <!-- Campo de pesquisa -->
         <Div class="inputMaps ">
             <h4 class="text-start">INSIRA O SEU ENDEREÇO:</h4>
-            <input type="text" id="searchInput" placeholder="Procurar por uma cidade aqui...">
-            <button class="btn btn-primary" id="searchBtn">Buscar</button>
+            <input class="bg-light text-dark p-3" type="text" id="searchInput" placeholder="Procurar por uma cidade aqui...">
+            <button class="btn btn-success m-2 border border-light" id="searchBtn">Buscar</button>
+            <button class="btn btn-success m-2 border border-light" id="locationBtn" title="Obter minha região">Minha Região</button>
             <p class="inputParagrafo">
-                O nosso programa é uma solução super prática <br> 
-                para ajudar as pessoas a descartarem<br> 
+                O nosso programa é uma solução super prática <br>
+                para ajudar as pessoas a descartarem<br>
                 corretamente seus resíduos! Ele utiliza o <br>
                 Google Maps para localizar os pontos de coleta <br>
                 de lixo eletrônico mais próximos, permitindo <br>
@@ -38,8 +145,8 @@
         </Div>
 
         <!-- Campo do Mapa -->
-        <Div class="localMaps"   >
-            <div class="centroMaps" id="map">
+        <Div class="localMaps">
+            <div class="centroMaps w-75 m-5" id="map">
 
             </div>
         </Div>
@@ -48,16 +155,52 @@
 
     </section>
 
-<!-- B. Leaflet com Openstreetmap -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
+    <!-- 4ª seção / Footer -->
+    <section id="contato" class="sec3 py-5">
+        <div class="container">
+           <div class="row justify-content-around">
+                <div class="col-4 w-50">
+                    <img src="img/Rectangle 8.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-4">
+                   <h3 class="p-5">Contate-nos</h3>
+                        
+                    <select name="links" id="" size="1" onchange="window.location.href=this.value;" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option value="index.html">Escolha aqui...</option>
+                        <option value="https://www.linkedin.com/in/adriane-ferreira-41bb121a4/">Adriana Ferreira</option>
+                        <option value="https://www.linkedin.com/in/brenda-mirelle-silva-de-s%C3%A1-239542219/">Brenda Mirelle</option>
+                        <option value="https://www.linkedin.com/in/fabricio-santana-358189201/">Fabricio Santana</option>
+                        <option value="https://www.linkedin.com/in/gabriel-da-crus-72b98825b/">Gabriel Barbosa</option>
+                        <option value="https://www.linkedin.com/in/jos%C3%A9-fernando-56bb28287/">José de Jesus</option>
+                        <option value="https://www.linkedin.com/in/dev-josue-nunes/">Josué da Silva</option>
+                        <option value="https://www.linkedin.com/in/kezia-oliveira-dev/">Kezia Oliveira</option>
+                        <option value="https://www.linkedin.com/in/luyza-da-cruz-silva"> Luyza da Cruz</option>
+                    </select>
+                   <p class="p-5 fs-5">Estamos aqui para ajudar! Entre em contato 
+                    conosco e teremos o prazer de responder suas dúvidas, 
+                    ouvir suas sugestões ou oferecer suporte no que for preciso.</p>
+                </div>
+        </div>
+    </section>
+    <section class="sec4 p-2">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-auto">
+                    <p class="fs-4">Projeto de Extensão e Inovação Interdisciplinar I 2025</p>
+                </div>
+                 
+            </div>
+        </div>
+        <footer class="row justify-content-around">
+                    &copy; Copyright 2025 
+            </footer>
+    </section>
 
-<!-- Bootstrap CSS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
-
- <!-- Importando javascript -->
-<script src="main.js"></script>
+    <!-- B. Leaflet com Openstreetmap -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Bootstrap Bundle (inclui Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Importando javascript -->
+    <script src="main.js"></script>
 </body>
-</html>
