@@ -1,0 +1,769 @@
+{
+	"name": "Vitoria",
+	"region": "ES",
+	"country": "BR",
+	"center": {
+		"lat": -14.2350, 
+		"long": -51.9253 
+	},
+	"points": [
+		{
+			"name": "COOPERCANIT",
+			"address": "R. Pd. Anchieta, 72 - Centro - Niterói, RJ",
+			"tels": [
+				"(21) 3024-9496"
+			],
+			"lat": -22.89803505670745,
+			"long": -43.121865699999944
+		},
+		{
+			"name": "Escola Estadual Alcina Rodrigues Lima",
+			"address": "Estrada Francisco da Cruz Nunes, s/nº - Itaipu - Niterói, RJ",
+			"tels": [
+				"(21) 3701-2423",
+				"(21) 3701-2425"
+			],
+			"lat": -22.946456,
+			"long": -43.032265
+		},
+		{
+			"name": "Oficina de Cartuchos",
+			"address": "Av. Ewerton da Cosa Xavier s/nº - Lote 1 - Quadra 80 - Itaipu - Niterói, RJ",
+			"tels": [],
+			"lat": -22.940206,
+			"long": -43.02775
+		},
+		{
+			"name": "RFSom Assistência Técnica",
+			"address": "R. Noronha Torrezão, 21 - Santa Rosa - Niterói, RJ",
+			"tels": [
+				"(21) 2710-4382"
+			],
+			"lat": -22.89805520670746,
+			"long": -43.103134650000015
+		},
+		{
+			"name": "Eletrônica Johenpess",
+			"address": "R. Lopes Trovão, 471 - Icaraí - Niterói, RJ",
+			"tels": [
+				"(21) 2711-7720"
+			],
+			"lat": -22.899440106707928,
+			"long": -43.10380459999999
+		},
+		{
+			"name": "Posto GNV 24h",
+			"address": "R. Noronha Torrezão, esquina com 22 de novembro - Santa Rosa - Niterói, RJ",            
+			"tels": [],
+			"lat": -22.889317,
+			"long": -43.095814
+		},
+		{
+			"name": "Escola Aldeia Curumim",
+			"address": "R. Prof. Dalton Gonçalves, 436 - Pendotiba - Niterói, RJ",
+			"tels": [
+				"(21) 2616-1326"
+			],
+			"lat": -22.895128,
+			"long": -43.034724
+		},
+		{
+			"name": "Farmácia Riodades",
+			"address": "R. Riodades, 148 - Fonseca - Niterói, RJ",
+			"tels": [
+				"(21) 3603-7000"
+			],
+			"lat": -22.878284056701006,
+			"long": -43.082863950000046
+		},
+		{
+			"name": "Ampla (Assaí - Alcantara)",
+			"address": "R. Alfredo Backer, 605 - Alcantara, RJ",            
+			"tels": [],
+			"lat": -22.819969,
+			"long": -43.004637
+		},
+		{
+			"name": "Ampla (Engenhoca - Niterói)",
+			"address": "Av. Professor João Brasil, s/nº - Engenhoca - Niterói, RJ",            
+			"tels": [],
+			"lat": -22.87042,
+			"long": -43.093507
+		},
+		{
+			"name": "Ampla (Centro - Niterói)",
+			"address": "Av. Visconde do Rio Branco, 731 - Centro - Niterói, RJ",            
+			"tels": [],
+			"lat": -22.897427,
+			"long": -43.12775
+		},
+		{
+			"name": "Ampla (Clin - Icaraí - Niterói)",
+			"address": "R. Jornalista Irineu Marinho, s/nº - Icaraí - Niterói, RJ",            
+			"tels": [],
+			"lat": -22.9097,
+			"long": -43.10399
+		},
+		{
+			"name": "Ampla (Clin - Largo da Batalha - Niterói)",
+			"address": "R. Leonor Glória, s/nº - Largo da Batalha - Niterói, RJ",            
+			"tels": [],
+			"lat": -22.906039806710087,
+			"long": -43.063744799999995
+		},
+		{
+			"name": "Ampla (Centro - São Gonçalo)",
+			"address": "R. Feliciano Sodré, 230 - Centro - São Gonçalo, RJ",            
+			"tels": [],
+			"lat": -22.82353510668312,
+			"long": -43.04703870000003
+		},
+		{
+			"name": "Ampla (Boa Vista - São Gonçalo)",
+			"address": "R. Joaquim de Oliveira, lote 308 - Boa Vista - São Gonçalo, RJ",            
+			"tels": [],
+			"lat": -22.813253,
+			"long": -43.058209
+		},
+		{
+			"name": "e-lixo-rj",
+			"address": "R. Angelo Miguel, 385 - Maria da Graça - Rio de Janeiro, RJ",            
+			"tels": [
+				"(21) 3474-2901",				
+				"(21) 7896-0040"
+			],
+			"lat": -22.88607,
+			"long": -43.265158
+		},
+        {
+			"name": "Drogasil",
+			"address": "Av Jones do, Av. Jones dos Santos Neves, 655 - Sernamby, São Mateus - ES",            
+			"tels": [
+				"(27) 99529-1655"				
+				
+			],
+			"lat": -18.71984167733286, 
+			"long": -39.856873728565915
+		},
+        {
+			"name": "Drogasil",
+			"address": "Av. Augusto Pestana, 1080 - Centro, Linhares - ES",            
+			"tels": [
+				"(27) 99615-6191"				
+				
+			],
+			"lat": -19.39949880825094, 
+			"long": -40.06650680149046
+		},
+        {
+			"name": "Drogasil",
+			"address": "Av. Prefeito Samuel Batista Cruz, 3192 - Novo Horizonte, Linhares - ES",            
+			"tels": [
+				"(27) 99659-5301"				
+				
+			],
+			"lat": -19.38247035680311, 
+			"long": -40.06662728903701
+		},
+        {
+			"name": "Drogasil",
+			"address": "Av. Mal. Deodoro da Fonseca - Interlagos, Linhares - ES",            
+			"tels": [
+				"(27) 3191-2371"				
+				
+			],
+			"lat": -19.390999344306948, 
+			"long": -40.04979150155148
+		},
+		
+        {
+			"name": "Drogasil",
+			"address": "Av. Jaguaré, 277 - 287 - Jaguaré, São Paulo - SP",            
+			"tels": [
+				"(11) 99588-5263"				
+				
+			],
+			"lat": -23.55688703042552, 
+			"long": -46.745417617330865
+		},
+		 {
+			"name": "Drogasil",
+			"address": "Av. Augusto Emílio Estelita Lins, 465 - Jardim Camburi, Vitória - ES",            
+			"tels": [
+				"(27) 99515-8782"				
+				
+			],
+			"lat": -20.250722040223756, 
+			"long": -40.2677331484316
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. Carlos Martins, 1008 - Jardim Camburi, Vitória - ES",            
+			"tels": [
+				"(27) 99954-8333"				
+				
+			],
+			"lat": -20.257455968885985, 
+			"long": -40.26960335629178
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. Carlos Romero Marangoni, 830 - Jardim Camburi, Vitória - ES",            
+			"tels": [
+				"(27) 99523-1804"				
+				
+			],
+			"lat": -20.25708072450025, 
+			"long": -40.26375687489904
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. Paschoal Delmaestro, 236 - 250 - Jardim Camburi, Vitória - ES",            
+			"tels": [
+				"(27) 99517-1061"				
+				
+			],
+			"lat": -20.262864237648348, 
+			"long": -40.264727286994614
+		},
+		{
+			"name": "Drogasil",
+			"address": "Av. Des. Dermeval Lyrio, 161 - Mata da Praia, Vitória - ES",            
+			"tels": [
+				"(27) 99781-6100"				
+				
+			],
+			"lat": -20.27446951310391, 
+			"long": -40.29388331897951
+		},
+		{
+			"name": "Drogasil",
+			"address": "Av. Des. Dermeval Lyrio, 245 - Mata da Praia, Vitória - ES",            
+			"tels": [
+				"(27) 3029-0071"				
+				
+			],
+			"lat": -20.275262396401402, 
+			"long": -40.294022305685814 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Praça Wolghano Neto, 130 - Loja 01 - Jardim da Penha, Vitória - ES",            
+			"tels": [
+				"(27) 99750-2845"				
+				
+			],
+			"lat": -20.28157495526863,  
+			"long": -40.29916685074604
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Praça Regina Frigeri Furno, 340 - Loja 105, 107, 109, 111 e 113 - Jardim da Penha, Vitória - ES",            
+			"tels": [
+				"(27) 99820-4780"				
+				
+			],
+			"lat": -20.282689815330325, 
+			"long": -40.29350057889406
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "PRAÇA PHILOGOMIRO LANNES, 90 - Jardim da Penha, Vitória - ES",            
+			"tels": [
+				"(27) 99883-9089"				
+				
+			],
+			"lat": -20.286773731441812, 
+			"long": -40.29542058180104 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Dr. João Carlos de Souza, 90 - Santa Luíza, Vitória - ES",            
+			"tels": [
+				"(27) 99880-2316"				
+				
+			],
+			"lat": -20.29225095602076, 
+			"long": -40.297912494753085 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Rio Branco, 1480 - Praia do Canto, Vitória - ES",            
+			"tels": [
+				"(27) 99612-3238"				
+				
+			],
+			"lat": -20.296590907820292, 
+			"long": -40.2946801677986 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Aleixo Netto, 1059 - Loja 1 - Praia do Canto, Vitória - ES",            
+			"tels": [
+				"(27) 99846-5733"				
+				
+			],
+			"lat": -20.29788057850497, 
+			"long": -40.29458014111241
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "AVENIDA SATURNINO DE BRITO, 1273 1 e 2 Pavimento - Praia do Canto, Vitória - ES",            
+			"tels": [
+				"(27) 99779-0741"				
+				
+			],
+			"lat": -20.29707946559996, 
+			"long": -40.29147634834686
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Nossa Sra. da Penha, 1166 - Praia do Canto, Vitória - ES",            
+			"tels": [
+				"(27) 99763-6584"				
+				
+			],
+			"lat": -20.30078119058906, 
+			"long": -40.29845103621502 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. José Teixeira, 228 - Loja 01 Edificio Bellagioi - Praia do Canto, Vitória - ES",            
+			"tels": [
+				"(27) 99575-9028"				
+				
+			],
+			"lat": -20.30606424921734, 
+			"long": -40.29523055104603 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Maruípe, 1083 - Maruípe, Vitória - ES",            
+			"tels": [
+				"(27) 99941-4960"				
+				
+			],
+			"lat": -20.29741898809672, 
+			"long": -40.31931760235652
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Princesa Isabel, 345 - Centro, Vitória - ES",            
+			"tels": [
+				"(27) 99693-2245"				
+				
+			],
+			"lat": -20.319541156585895, 
+			"long": -40.33169189073954 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Mal. Campos, 80 - Consolação, Vitória - ES",            
+			"tels": [
+				"(27) 99626-2309"				
+				
+			],
+			"lat": -20.31007172901294,  
+			"long": -40.31426020711566
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Leitão da Silva, 421 - Loja 1 e 2 - Bento Ferreira, Vitória - ES",            
+			"tels": [
+				"(27) 99794-5467"				
+				
+			],
+			"lat": -20.311626616477625, 
+			"long": -40.30254465704223
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Américo Buaiz, 200 - 200 Loja 331 - Enseada do Suá, Vitória - ES / Shopping Vitória",            
+			"tels": [
+				"(27) 99938-3959"				
+				
+			],
+			"lat": -20.312904728533713, 
+			"long": -40.28795852027575
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Princesa Isabel, 139 - S - Serra Centro, Serra - ES",            
+			"tels": [
+				"(27) 99884-4734"				
+				
+			],
+			"lat": -20.12383258226689, 
+			"long": -40.30609665090978 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Muriaé, 521 - Nova Carapina II, Serra - ES",            
+			"tels": [
+				"(27) 99900-6724"				
+				
+			],
+			"lat": -20.152371584819775, 
+			"long": -40.27002993279577
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Brasília, S/N - Porto Canoa, Serra - ES",            
+			"tels": [
+				""				
+				
+			],
+			"lat": -20.157544362620243, 
+			"long": -40.252865122920355 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Belém, 143 - Parque Jacaraipe, Serra - ES",            
+			"tels": [
+				"(27) 99838-5695"				
+				
+			],
+			"lat": -20.151035086007965, 
+			"long": -40.1863940458795
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Braúna, 1084 - Colina de Laranjeiras, Serra - ES",            
+			"tels": [
+				"(27) 99958-0521"				
+				
+			],
+			"lat": -20.188745898969547, 
+			"long": -40.26163298513559 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Cel. Manoel Nunes, 16 - José de Anchieta, Serra - ES",            
+			"tels": [
+				""				
+				
+			],
+			"lat": -20.193882662239446,
+			"long":  -40.26976291058647
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Eldes Scherrer Souza, 1045 - Parque Res. Laranjeiras, Serra - ES",            
+			"tels": [
+				"(27) 99909-7279"				
+				
+			],
+			"lat": -20.195017256502023, 
+			"long":  -40.254209004342755
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Central, 1084 - QD C2D - Colina de Laranjeiras, Serra - ES",            
+			"tels": [
+				"(27) 99958-0521"				
+				
+			],
+			"lat": -20.195805549319534,
+			"long":   -40.2471929183896 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Central, 943 - Loja 1 - Parque Res. Laranjeiras, Serra - ES",            
+			"tels": [
+				"(27) 99825-6497"				
+				
+			],
+			"lat": -20.19905883654652, 
+			"long":   -40.25491962351356
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Paulo Pereira Gomes, 749 - Morada de Laranjeiras, Serra - ES",            
+			"tels": [
+				" "				
+				
+			],
+			"lat": -20.199011085827888, 
+			"long":  -40.22527530898076
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Des. Mário da Silva Nunes, 78 - Jardim Limoeiro, Serra - ES",            
+			"tels": [
+				"(27) 99772-2694"				
+				
+			],
+			"lat": -20.209927192819304, 
+			"long":  -40.262879719764456
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Brasil, 1686 - Novo Horizonte, Serra - ES",            
+			"tels": [
+				"(27) 3064-6749"				
+				
+			],
+			"lat": -20.218402078757446, 
+			"long":  -40.250257600632864
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Des. Augusto Botelho, 252 - Praia da Costa, Vila Velha - ES",            
+			"tels": [
+				"(27) 3191-2400"				
+				
+			],
+			"lat": -20.33122839351624, 
+			"long":   -40.27746605058002
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Castelo Branco, 80 Centro de Vila Velha - Praia da Costa, Vila Velha - ES",            
+			"tels": [
+				"(27) 99777-5276"				
+				
+			],
+			"lat": -20.334600015493503, 
+			"long":   -40.28129050498136 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Champagnat, 521 - Centro de Vila Velha, Vila Velha - ES",            
+			"tels": [
+				"(27) 99998-6974"				
+				
+			],
+			"lat": -20.33690008639305, 
+			"long":   -40.287140629807375 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Jerônimo Monteiro, 3435 - Ataíde, Vila Velha - ES",            
+			"tels": [
+				"(27) 99967-6927"				
+				
+			],
+			"lat": -20.340939413403298, 
+			"long":   -40.327649750467
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Carlos Lindenberg, 857 - Cristóvão Colombo, Vila Velha - ES",            
+			"tels": [
+				"(27) 99657-5939"				
+				
+			],
+			"lat": -20.339257595134203, 
+			"long":   -40.30551697550893
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Hugo Musso, 100 - Praia da Costa, Vila Velha - ES",            
+			"tels": [
+				"(27) 99504-4876"				
+				
+			],
+			"lat": -20.340691071522613,
+			"long":    -40.28448292110491 
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "AVENIDA DOUTOR OLIVIO LIRA, 353 SUC 107B PISO L 1 SHOP - Praia da Costa, Vila Velha - ES",            
+			"tels": [
+				"(27) 99624-8670"				
+				
+			],
+			"lat": -20.341937247068575, 
+			"long":    -40.2887558564545
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "R. Pará, 138 - Praia da Costa, Vila Velha - ES",            
+			"tels": [
+				"(27) 99658-9319"				
+				
+			],
+			"lat": -20.34388386779046, 
+			"long":    -40.28545550906446
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Hugo Musso, 100 - Praia da Costa, Vila Velha - ES",            
+			"tels": [
+				""				
+				
+			],
+			"lat": -20.346352532494148, 
+			"long":    -40.284986960875095
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Jair de Andrade, 336 - Itapuã, Vila Velha - ES",            
+			"tels": [
+				"(27) 99616-1694"				
+				
+			],
+			"lat": -20.351915945466438,
+			"long":     -40.28724883778376
+		}
+		,
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Luciano das Neves, 2418 - Divino Espírito Santo, Vila Velha - ES",            
+			"tels": [
+				"(27) 99501-8051"				
+				
+			],
+			"lat": -20.35203285937781,
+			"long":  -40.297717614180385
+		},
+		
+		{
+			"name": "Drogasil",
+			"address": "Av. Luciano das Neves, 3100 - Praia de Itaparica, Vila Velha - ES",            
+			"tels": [
+				"(27) 99601-4696"				
+				
+			],
+			"lat": -20.35763863042851, 
+			"long": -40.296691299531155
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. Olegário Mariano, 278 - Soteco, Vila Velha - ES",            
+			"tels": [
+				"(27) 99816-6228"				
+				
+			],
+			"lat": -20.352052139276836, 
+			"long": -40.30757815512574
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "Avenida Vitoria Regia Anexo D2, D3, D4 E D5 - Brisamar, Vila Velha - ES",            
+			"tels": [
+				"(27) 99994-1408"				
+				
+			],
+			"lat": -20.358638155302987, 
+			"long": -40.316073071930674
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. José Félix Cheim, 11 - Loja 12 - Praia de Itaparica, Vila Velha - ES",            
+			"tels": [
+				"(27) 99768-7344"				
+				
+			],
+			"lat": -20.365350306132754, 
+			"long": -40.301869848394176 
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. Humberto Pereira, 2754 - Praia de Itaparica, Vila Velha - ES",            
+			"tels": [
+				"(27) 99804-6259"				
+				
+			],
+			"lat": -20.37383044073919,
+			"long": -40.30818919701298 
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "Av. Saturnino Rangel Mauro, 3154 - Praia de Itaparica, Vila Velha - ES",            
+			"tels": [
+				"(27) 3075-3173"				
+				
+			],
+			"lat": -20.380204432096352,
+			"long":  -40.31039055436871
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "Riviera da Barra, Vila Velha - ES",            
+			"tels": [
+				"(27) 99668-6437"				
+				
+			],
+			"lat": -20.426968314755857, 
+			"long":  -40.33229437963117
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "R. Uirapuru, S/N - Alecrim, Vila Velha - ES",            
+			"tels": [
+				"(27) 99739-3996"				
+				
+			],
+			"lat": -20.34761717625377, 
+			"long": -40.34118880368812 
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "Av. Papa João XXIII, 190 - Cobilândia, Vila Velha - ES",            
+			"tels": [
+				"(27) 99606-7994"				
+				
+			],
+			"lat": -20.35444216423073, 
+			"long": -40.356015979995526
+
+		},
+		{
+			"name": "Drogasil",
+			"address": "Rod. Governador Mário Covas, BR 101 - Marcilio de Noronha, Viana - ES",            
+			"tels": [
+				"(27) 3011-9020"				
+				
+			],
+			"lat": -20.355134910438384, 
+			"long": -40.41779641938618
+
+		}
+	]
+}
